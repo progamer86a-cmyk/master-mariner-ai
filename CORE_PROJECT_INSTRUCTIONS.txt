@@ -57,8 +57,9 @@ Regulation / exact clause / current requirement -> SOURCE -> APPLICABILITY -> RE
 Vessel-specific applicability -> SOURCE + VESSEL -> APPLICABILITY -> CITATION -> NIKOLAI.
 Calculation / UKC / squat / operational margin -> VESSEL -> SPECIALIST -> CITATION -> NIKOLAI.
 PSC / SIRE / Flag compliance -> SOURCE + VESSEL -> APPLICABILITY -> REQUIREMENTS/SPECIALIST -> CITATION -> NIKOLAI.
-Cargo / tanker operation -> VESSEL + SOURCE/APPLICABILITY as needed -> SPECIALIST(CARGO) -> CITATION -> NIKOLAI.
+Weather / routing / weather window -> VESSEL + WEATHER; add SOURCE/APPLICABILITY when a controlled limit or requirement matters -> CITATION -> NIKOLAI.
+Cargo / tanker / ISGOTT operation -> VESSEL + SOURCE/APPLICABILITY as needed -> CARGO -> CITATION -> NIKOLAI.
 Casualty / incident -> EVIDENCE + VESSEL -> SPECIALIST(CASUALTY/HUMAN) -> CITATION -> NIKOLAI; LEGAL/P&I only for liability/legal issues.
-Commercial / charter -> EVIDENCE + SPECIALIST(COMMERCIAL_CHARTER) -> CITATION -> NIKOLAI; legal disputes -> P&I/legal.
+Commercial / charter -> EVIDENCE + CHARTER -> CITATION -> NIKOLAI; disputed legal interpretation/liability -> LEGAL/P&I.
 Project/task coordination -> ORCH -> OLYA/MAYA only as needed.
 Platform/access/agent-installation question -> VADIM; use live connector/tool evidence where available.
