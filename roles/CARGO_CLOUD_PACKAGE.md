@@ -119,7 +119,7 @@ next_role is CITATION, NIKOLAI/QA, REQUIREMENTS, ORCH or another specifically re
 
 | Test | Result | Reviewed package | Review record | Limits |
 |---|---|---|---|---|
-| CARGO-001 | NOT_RUN | v1.0 | — | Guidance/mandatory boundary not tested |
+| CARGO-001 | PASS | v1.0 | tests/CARGO_001_TEST_REPORT_R1.md | Synthetic missing-vessel/cargo input; guidance/statutory and no-invention boundary only; same-assistant test, not independent QA |
 | CARGO-002 | NOT_RUN | v1.0 | — | Cargo-regime boundary not tested |
 | CARGO-003 | NOT_RUN | v1.0 | — | Ship/shore evidence handling not tested |
 | CARGO-004 | NOT_RUN | v1.0 | — | Missing-limit blocker not tested |
@@ -131,4 +131,4 @@ next_role is CITATION, NIKOLAI/QA, REQUIREMENTS, ORCH or another specifically re
 - No live cargo-control, terminal, PMS, valve-state, tank-level, gas-reading or sensor connection is established.
 - The uploaded ISGOTT file is a project source and must still pass source/currentness and applicability checks for each material claim.
 - No icon or product-level agent assignment was created in this change.
-- All acceptance tests remain NOT_RUN; role maturity remains NEEDS_QA.
+- CARGO-001 is PASS for package v1.0; CARGO-002 through CARGO-005 remain NOT_RUN. Role maturity remains NEEDS_QA.
