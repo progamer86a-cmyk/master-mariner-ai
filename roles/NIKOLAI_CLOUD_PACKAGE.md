@@ -150,3 +150,4 @@ Return an evidence inventory, claim-to-evidence table, contradictions and target
 ## Result contract
 
 Return task_id, result_id, revision, role, skill_id, inputs with versions, sources with locators, result, workflow_status, missing_information, risks and next_role. Use READY only for completed stage output, never as a claim of operational approval. Record review scope and limitations. This skill provides advisory support; decisions remain with the responsible human authority.
+
