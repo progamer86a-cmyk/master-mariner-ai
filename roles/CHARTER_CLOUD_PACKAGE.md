@@ -136,7 +136,7 @@ next_role is CITATION, NIKOLAI/QA, LEGAL/P&I or ORCH as justified. persistence_s
 
 | Test | Result | Reviewed package | Review record | Limits |
 |---|---|---|---|---|
-| CHARTER-001 | NOT_RUN | v1.0 | — | Document-hierarchy handling not tested |
+| CHARTER-001 | PASS | v1.0 | tests/CHARTER_001_TEST_REPORT_R1.md | Synthetic clause/commercial calculation with LEGAL/P&I boundary; same-assistant test, not independent QA |
 | CHARTER-002 | NOT_RUN | v1.0 | — | Commercial calculation workflow not tested |
 | CHARTER-003 | NOT_RUN | v1.0 | — | LEGAL/P&I boundary not tested |
 | CHARTER-004 | NOT_RUN | v1.0 | — | Notice/time-bar evidence handling not tested |
@@ -148,4 +148,4 @@ next_role is CITATION, NIKOLAI/QA, LEGAL/P&I or ORCH as justified. persistence_s
 - No charter-party database, P&I platform, legal research subscription, email archive or claims system is connected by this package.
 - No contract clause or legal proposition is accepted merely by creating this package.
 - No icon or product-level agent assignment was created in this change.
-- All acceptance tests remain NOT_RUN; role maturity remains NEEDS_QA.
+- CHARTER-001 is PASS for package v1.0; CHARTER-002 through CHARTER-005 remain NOT_RUN. Role maturity remains NEEDS_QA.
