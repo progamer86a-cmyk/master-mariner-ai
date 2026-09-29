@@ -1,6 +1,6 @@
 # Master Mariner AI 2.0 — Agent Register
 
-Register revision: 10  
+Register revision: 11  
 Updated: 29 September 2026
 
 This register records artifacts physically present in the current workspace. It does not prove product installation, persistence, automatic execution or 24/7 availability.
@@ -19,7 +19,7 @@ This register records artifacts physically present in the current workspace. It 
 | NIKOLAI | PRESENT authoritative v1.1, restored from saved project copy | PRESENT | NIKOLAI-RECOVERY-001 PASS; NIKOLAI-002 historical only, report missing | NEEDS_QA | UNVERIFIED |
 | MAYA | PRESENT authoritative v1.0, restored from saved project copy | PRESENT | MAYA-RESTORE-001 PASS; MAYA-001 historical only, report missing | NEEDS_QA | UNVERIFIED |
 | VADIM | PRESENT authoritative v1.0, restored from Library project copy | PRESENT | VADIM-RESTORE-001 PASS; VADIM-001 historical only, report missing | NEEDS_QA | UNVERIFIED |
-| WEATHER | PRESENT v1.0 | MISSING | NOT_RUN | NEEDS_QA | UNVERIFIED |
+| WEATHER | PRESENT v1.0 | MISSING | WEATHER-001 PASS (synthetic boundary test) | NEEDS_QA | UNVERIFIED |
 | CARGO | PRESENT v1.0 | MISSING | NOT_RUN | NEEDS_QA | UNVERIFIED |
 | CHARTER | PRESENT v1.0 | MISSING | NOT_RUN | NEEDS_QA | UNVERIFIED |
 
