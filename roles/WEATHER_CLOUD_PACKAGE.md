@@ -125,7 +125,7 @@ next_role is PASSAGE, VOYAGE, CARGO, MOOR, CITATION, NIKOLAI/QA or ORCH as justi
 
 | Test | Result | Reviewed package | Review record | Limits |
 |---|---|---|---|---|
-| WEATHER-001 | NOT_RUN | v1.0 | — | Forecast/observation boundary not tested |
+| WEATHER-001 | PASS | v1.0 | tests/WEATHER_001_TEST_REPORT_R1.md | Synthetic missing-port/date input; forecast/observation boundary only; same-assistant test, not independent QA |
 | WEATHER-002 | NOT_RUN | v1.0 | — | Coverage/validity handling not tested |
 | WEATHER-003 | NOT_RUN | v1.0 | — | Conflicting products not tested |
 | WEATHER-004 | NOT_RUN | v1.0 | — | Operational-limit boundary not tested |
@@ -137,4 +137,4 @@ next_role is PASSAGE, VOYAGE, CARGO, MOOR, CITATION, NIKOLAI/QA or ORCH as justi
 - No live weather, routing, AIS, ECDIS, VTS or sensor connection is established by this package.
 - No approved vessel/SMS/Class/port weather limits are embedded by this package.
 - No icon or product-level agent assignment was created in this change.
-- All acceptance tests remain NOT_RUN; role maturity remains NEEDS_QA.
+- WEATHER-001 is PASS for package v1.0; WEATHER-002 through WEATHER-005 remain NOT_RUN. Role maturity remains NEEDS_QA.
